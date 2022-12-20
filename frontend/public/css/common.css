@@ -1,0 +1,71 @@
+/* common */
+html,
+body{
+  background-color: #f4f6fa;
+  font-family: "Comfortaa", cursive;
+  color: #535d4b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a, a:hover{
+  font-family: "Comfortaa", cursive;
+  color: #535d4b;
+  text-decoration: none;
+}
+footer{
+    opacity:0.5;
+    font-size: 12px;
+}
+
+/* custom bootstrap */
+.card {
+    border: none;
+    background-color: #fff;
+    
+    box-shadow: 0px 3px 10px rgba(200, 200, 200, 0.2);
+}
+.btn{
+    border-radius: 10px;
+}
+.btn-primary{
+    background-color: #535D4B;
+    border-color: #535D4B;
+    color: #fff;
+}
+.btn-outline-primary{
+    border-color: #535D4B;
+    color: #535D4B;
+}
+.btn-primary:hover, .btn-outline-primary:hover{
+    background-color: #535D4B;
+    border-color: #535D4B;
+    color: #fff;
+}
+.btn-primary:focus, .btn-outline-primary:focus, .btn-primary:active, .btn-outline-primary:active{
+    background-color: #373E32!important;
+    border-color: #373E32!important;;
+    color: #fff!important;;
+}
+
+/* custom */
+.food-item.card{
+    margin-top: 50px;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+.food-item.card:hover{
+    box-shadow: 0px 3px 10px rgba(200, 200, 200, 0.8);
+    transform: scale(1.1);
+}
+.food-item.card .image img{
+    position: relative;
+    margin-top: -50px;
+}
+.food-item.card .name{
+    display: block;
+    letter-spacing: 1px;
+}
+.food-item.card .price > div:nth-child(2){
+    margin-top: -3px;
+    font-size:24px;
+}
